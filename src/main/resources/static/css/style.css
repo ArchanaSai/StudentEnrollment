@@ -1,0 +1,114 @@
+@charset "ISO-8859-1";
+body{
+	background-color: mintcream;
+}
+.has-error{
+	color : red;
+}
+.asterisk-mandatory {
+    color: crimson;
+    margin-left: 4%;
+}
+.form-container {
+    width: 50%;
+    margin-left: 24%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #E8E1E1;
+    border-radius: 10%;
+}
+.float-right{
+	float:right;
+	margin-right: 18px;
+}
+.save-button {
+    width: 90%;
+    margin-right: 65px;
+    font-size: medium;
+    font-family: fangsong;
+    font-weight: bold;
+    color: mintcream;
+    background: steelblue;
+}
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+table {
+    width:100%;
+}
+table, th, td {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#studentSummaryTable tr:nth-child(even) {
+    background-color: #eee;
+}
+table#studentSummaryTable tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#studentSummaryTable th {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
+table#manageLinksTable td {
+    vertical-align: inherit;
+    text-align: center;
+}
+table#manageLinksTable tr:nth-child(even) {
+    background-color: #eee;
+}
+table#manageLinksTable tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#manageLinksTable th {
+    background-color: mintcream;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: darkblue;
+}
+h2 {
+    text-align: left;
+    display: block;
+    font-size: 1em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color:#008040;
+}
+a {
+    font-weight: bold;
+    color: darkblue;
+}
+.tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+.enrollment-header {
+    width: 100%;
+    margin-bottom: 3%;
+    border-color: mintcream;
+    background: mintcream;
+    border-block: inherit;
+}
+.title-class{
+	color: steelblue;
+	font-size: x-large;
+	text-align: center;
+}
